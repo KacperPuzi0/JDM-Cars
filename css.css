@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+body {
+  height: 4000px;
+  padding: 0;
+  margin: 0;
+  background-image: url(tło3.jpg);
+  background-repeat: repeat;
+}
+header {
+  width: 100%;
+}
+.Nagłówek {
+  width: 100%;
+  height: 10vw;
+  position: center;
+  font-family: Rajdhani;
+  font-weight: 500;
+  color: rgb(240, 239, 239);
+  padding-top: 10vw;
+  padding-bottom: 20vw;
+  font-size: 8vw;
+  color: rgb(165, 29, 29);
+  transition-duration: 1s;
+  text-align:center;
+  text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+  0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+  0 6px 1px rgba(0,0,0,.1), 
+  0 0 5px rgba(0,0,0,.1), 
+  0 1px 3px rgba(0,0,0,.3), 
+  0 3px 5px rgba(0,0,0,.2), 
+  0 5px 10px rgba(0,0,0,.25), 
+  0 10px 10px rgba(0,0,0,.2), 
+  0 20px 20px rgba(0,0,0,.15); 
+  
+}
+.Nagłówek:hover {
+  transform: scale(1.1);
+}
+#Meniu {
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+  font-family: Rajdhani;
+  font-size: 3vw;
+  position: fixed;
+  opacity: 0.7;
+  transition: 2s; 
+    text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+  0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+  0 6px 1px rgba(0,0,0,.1), 
+  0 0 5px rgba(0,0,0,.1), 
+  0 1px 3px rgba(0,0,0,.3), 
+  0 3px 5px rgba(0,0,0,.2), 
+  0 5px 10px rgba(0,0,0,.25), 
+  0 10px 10px rgba(0,0,0,.2), 
+  0 20px 20px rgba(0,0,0,.15);
+}
+.odnosnik:hover{
+  transform:scale(1.1);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(240, 0, 0), 0 0 40px #680202, 0 0 70px #df2424, 0 0 80px #db0000, 0 0 100px #da1616, 0 0 150px #7e0808;
+}
+a {
+  text-decoration: none;
+  color: rgb(165, 29, 29);
+  font-weight: 400;
+  cursor: pointer;
+}
+a:hover {
+  transition-duration: 1s;
+  color: rgb(0, 0, 0);
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+  font-family: Rajdhani;
+}
+img {
+  width: 100%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  border-radius: 3%;
+}
+ 
+img:hover {
+  border-radius: 50%;
+}
+p {
+  font-family: Rajdhani;
+}
+h2 {
+  font-size: xx-large;
+    text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+  0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+  0 6px 1px rgba(0,0,0,.1), 
+  0 0 5px rgba(0,0,0,.1), 
+  0 1px 3px rgba(0,0,0,.3), 
+  0 3px 5px rgba(0,0,0,.2), 
+  0 5px 10px rgba(0,0,0,.25), 
+  0 10px 10px rgba(0,0,0,.2), 
+  0 20px 20px rgba(0,0,0,.15);
+}
+p {
+  font-size: x-large;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.card > div {
+  padding: 2rem;
+}
+.card:nth-child(even) img {
+  order: 2;
+}
+@media (max-width: 700px) {
+  .card {
+    display: block;
+  }
+}
+.container2{
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  font-family: Rajdhani;
+  padding: 0 2rem;
+
+}
+.jo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.jo > div {
+  padding: 2rem;
+}
+
+@media (max-width: 600px) {
+  .jo {
+    display: block;
+  }
+}
+
+.linie1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Rajdhani;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vw
+}
+
+h5{
+  font-size: xx-large;
+  font-family: Rajdhani;
+}
+
+.container1 {
+  width: 100%;
+  max-width: 1200px;
+}
+.linie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Rajdhani;
+  margin-top: 5vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+.Nagłówek1 {
+  color: rgb(165, 29, 29);
+}
+.odnosniki {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+footer {
+  width: 100%;
+}
+.info {
+  margin-top: 3vw;
+  text-align: center;
+  font-family: Rajdhani;
+  font-size: 1vw;
+  color: black;
+}
+.formularz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-family: Rajdhani;
+}
+h3{
+  text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+  0 4px 0 #b9b9b9, 0 5px 0 #aaa, 
+  0 6px 1px rgba(0,0,0,.1), 
+  0 0 5px rgba(0,0,0,.1), 
+  0 1px 3px rgba(0,0,0,.3), 
+  0 3px 5px rgba(0,0,0,.2), 
+  0 5px 10px rgba(0,0,0,.25), 
+  0 10px 10px rgba(0,0,0,.2), 
+  0 20px 20px rgba(0,0,0,.15);
+}
+h4 {
+  text-align: center;
+  font-size: x-large;
+  border: 1px solid black;
+  border-radius: 2%;
+  padding: 3vw 3vw;
+  color: rgb(165, 29, 29);
+  transition-duration: 1s;
+  transform: perspective(500px) rotateY(360deg);
+}
+h4:hover{
+	transform:scale(1.1);	
+	background-color:rgb(165, 29, 29);
+	color: white;
+  border-radius: 100%;
+}
+.gora{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.odnosnik1{
+  padding: 1vw;
+  font-family: Rajdhani;
+  flex-wrap: wrap;
+}
+.odnosnik1:hover{
+ transform: scale(1.1);
+}
+@media only screen and (max-width: 600px) {
+  .odnosnik{
+      font-size: 5vw;
+  }
+  .odnosniki1{
+    font-size: 5vw;
+  }
+}
